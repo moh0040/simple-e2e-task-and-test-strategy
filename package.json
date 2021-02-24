@@ -1,0 +1,15 @@
+{
+  "name": "3yd-qa-task",
+  "version": "1.0.0",
+  "description": "Simple e2e tests for login and upload file as well as writing README.",
+  "scripts": {
+    "test": "testcafe chrome e2e//features//features.ts"
+  },
+  "author": "Saeed Sharifi",
+  "dependencies": {
+    "testcafe": "^1.10.1"
+  },
+  "optionalDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
